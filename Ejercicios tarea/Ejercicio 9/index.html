@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Problema 9 SRH</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1>Cálculo de la letra del DNI</h1>
+    <form id="formRegistro" novalidate>
+    <label>Nombre:
+      <input type="text" id="nombre" required>
+      <span class="error" id="errorNombre"></span>
+    </label><br>
+
+    <label>Email:
+      <input type="email" id="email" required>
+      <span class="error" id="errorEmail"></span>
+    </label><br>
+
+    <label>Comentarios:
+      <textarea id="comentarios" maxlength="50" required></textarea>
+      <span class="error" id="errorComentarios"></span>
+    </label><br>
+
+    <label>Password:
+      <input type="password" id="password" required>
+      <span class="error" id="errorPassword"></span>
+    </label><br>
+
+    <label>
+      <input type="checkbox" id="condiciones"> Acepto las condiciones del servicio
+      <span class="error" id="errorCondiciones"></span>
+    </label><br>
+
+    <button type="submit">Registrarse</button>
+  </form>
+
+</body>
+</html>

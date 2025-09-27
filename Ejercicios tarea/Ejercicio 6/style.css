@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="date"],
+input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+button,
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #7fb3d3;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #5a9bca;
+}
+
+#resultado,
+#numeros {
+    font-size: 16px;
+    color: #444;
+}
